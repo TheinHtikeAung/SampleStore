@@ -9,21 +9,30 @@
 /* Begin PBXBuildFile section */
 		E10AC24E25FF3CCE00E58893 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10AC24D25FF3CCE00E58893 /* AppDelegate.swift */; };
 		E10AC25025FF3CCE00E58893 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10AC24F25FF3CCE00E58893 /* SceneDelegate.swift */; };
-		E10AC25225FF3CCE00E58893 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10AC25125FF3CCE00E58893 /* ViewController.swift */; };
-		E10AC25525FF3CCE00E58893 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E10AC25325FF3CCE00E58893 /* Main.storyboard */; };
 		E10AC25725FF3CCF00E58893 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E10AC25625FF3CCF00E58893 /* Assets.xcassets */; };
 		E10AC25A25FF3CCF00E58893 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E10AC25825FF3CCF00E58893 /* LaunchScreen.storyboard */; };
+		E10AC26825FF3DC800E58893 /* StoreListingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10AC26625FF3DC800E58893 /* StoreListingVC.swift */; };
+		E10AC26925FF3DC800E58893 /* StoreListingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E10AC26725FF3DC800E58893 /* StoreListingVC.xib */; };
+		E10AC26E25FF400300E58893 /* StoreDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10AC26C25FF400300E58893 /* StoreDetailVC.swift */; };
+		E10AC26F25FF400300E58893 /* StoreDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E10AC26D25FF400300E58893 /* StoreDetailVC.xib */; };
+		E10AC27325FF41E800E58893 /* StoreListingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10AC27125FF41E800E58893 /* StoreListingCell.swift */; };
+		E10AC27425FF41E800E58893 /* StoreListingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E10AC27225FF41E800E58893 /* StoreListingCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E10AC24A25FF3CCE00E58893 /* SampleStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E10AC24D25FF3CCE00E58893 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E10AC24F25FF3CCE00E58893 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E10AC25125FF3CCE00E58893 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E10AC25425FF3CCE00E58893 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E10AC25625FF3CCF00E58893 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E10AC25925FF3CCF00E58893 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E10AC25B25FF3CCF00E58893 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E10AC26625FF3DC800E58893 /* StoreListingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreListingVC.swift; sourceTree = "<group>"; };
+		E10AC26725FF3DC800E58893 /* StoreListingVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoreListingVC.xib; sourceTree = "<group>"; };
+		E10AC26C25FF400300E58893 /* StoreDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreDetailVC.swift; sourceTree = "<group>"; };
+		E10AC26D25FF400300E58893 /* StoreDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoreDetailVC.xib; sourceTree = "<group>"; };
+		E10AC27125FF41E800E58893 /* StoreListingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreListingCell.swift; sourceTree = "<group>"; };
+		E10AC27225FF41E800E58893 /* StoreListingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoreListingCell.xib; sourceTree = "<group>"; };
+		E10AC27625FF53E700E58893 /* SampleStore.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SampleStore.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +65,18 @@
 		E10AC24C25FF3CCE00E58893 /* SampleStore */ = {
 			isa = PBXGroup;
 			children = (
+				E10AC27625FF53E700E58893 /* SampleStore.entitlements */,
 				E10AC24D25FF3CCE00E58893 /* AppDelegate.swift */,
 				E10AC24F25FF3CCE00E58893 /* SceneDelegate.swift */,
-				E10AC25125FF3CCE00E58893 /* ViewController.swift */,
-				E10AC25325FF3CCE00E58893 /* Main.storyboard */,
 				E10AC25625FF3CCF00E58893 /* Assets.xcassets */,
 				E10AC25825FF3CCF00E58893 /* LaunchScreen.storyboard */,
 				E10AC25B25FF3CCF00E58893 /* Info.plist */,
+				E10AC26625FF3DC800E58893 /* StoreListingVC.swift */,
+				E10AC26725FF3DC800E58893 /* StoreListingVC.xib */,
+				E10AC26C25FF400300E58893 /* StoreDetailVC.swift */,
+				E10AC26D25FF400300E58893 /* StoreDetailVC.xib */,
+				E10AC27125FF41E800E58893 /* StoreListingCell.swift */,
+				E10AC27225FF41E800E58893 /* StoreListingCell.xib */,
 			);
 			path = SampleStore;
 			sourceTree = "<group>";
@@ -125,8 +139,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E10AC25A25FF3CCF00E58893 /* LaunchScreen.storyboard in Resources */,
+				E10AC27425FF41E800E58893 /* StoreListingCell.xib in Resources */,
 				E10AC25725FF3CCF00E58893 /* Assets.xcassets in Resources */,
-				E10AC25525FF3CCE00E58893 /* Main.storyboard in Resources */,
+				E10AC26925FF3DC800E58893 /* StoreListingVC.xib in Resources */,
+				E10AC26F25FF400300E58893 /* StoreDetailVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,23 +153,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E10AC25225FF3CCE00E58893 /* ViewController.swift in Sources */,
+				E10AC26825FF3DC800E58893 /* StoreListingVC.swift in Sources */,
+				E10AC27325FF41E800E58893 /* StoreListingCell.swift in Sources */,
 				E10AC24E25FF3CCE00E58893 /* AppDelegate.swift in Sources */,
 				E10AC25025FF3CCE00E58893 /* SceneDelegate.swift in Sources */,
+				E10AC26E25FF400300E58893 /* StoreDetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E10AC25325FF3CCE00E58893 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E10AC25425FF3CCE00E58893 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E10AC25825FF3CCF00E58893 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -286,6 +296,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SampleStore/SampleStore.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4Q6BTG8MC6;
 				INFOPLIST_FILE = SampleStore/Info.plist;
@@ -293,7 +304,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = theinhtikeaung.SampleStore;
+				PRODUCT_BUNDLE_IDENTIFIER = com.theinhtikeaung.SampleStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -305,6 +316,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SampleStore/SampleStore.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4Q6BTG8MC6;
 				INFOPLIST_FILE = SampleStore/Info.plist;
@@ -312,7 +324,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = theinhtikeaung.SampleStore;
+				PRODUCT_BUNDLE_IDENTIFIER = com.theinhtikeaung.SampleStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
